@@ -1,0 +1,495 @@
+h1 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: semi-bold;
+	line-height: 30px;
+	margin-top: 30px;
+	}
+	
+h2 {
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	line-height: 30px;
+	text-transform: uppercase;
+	}	
+	
+h3 {
+	color: #ffffff;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-size: 35px;
+	line-height: 30px;
+	margin-top: 15px;
+	}	
+	
+h4 {
+	color: #02020;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 20px;
+	}	
+	
+h5 {
+	color: #666666;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 30px;
+	}	
+	
+h6 {
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	text-align: center;
+	}	
+	
+.default-btn {
+	background-color: #29b6f6;
+	border-radius: 3px;
+	color: #ffffff;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	}	
+	
+.default-btn:hover {
+	background-color: #0b77a8; 
+	}	
+	
+.default-title {
+	color: #020202;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	}	
+	
+.default-title h4,
+.default-title i {
+	margin-bottom: 20px; 
+	}			
+	
+i {
+	color: #b2b4ba;
+	}
+	
+p {
+	color: #545454;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 14px;
+	}
+	
+.icon {
+	display: inline-block;
+	float: left;
+	}			
+
+.container {
+	margin: 0 auto;
+	width: 1170px;
+	}
+	
+/* banner starts */	
+.banner {
+	background: url(../images/banner-bg.jpg) no-repeat left top;
+	background-size: cover;
+	}	
+	
+	.banner .space {
+		padding-top: 15px;
+		}
+	
+	.banner .header {
+		background-color: #ffffff;
+		}
+
+		.banner .header .header-right {
+			float: right;
+			}
+			
+			.header .header-left img {
+				padding-top: 10px;
+				}
+	
+			.header .header-right p,
+			.header .header-right img {
+				color: #4e4d4d;
+				float: left;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: semi-bold;
+				margin: 20px 35px;
+				}
+		
+	.banner .header {
+		border-bottom: 1px solid #ededed;
+		padding: 0 40px 0 10px;
+		}
+		
+	.banner .navigation {
+		background-color: #f6f7f7;
+		text-align: center;
+		}
+		
+		.banner .navigation ul li {
+			text-align: center;
+			display: inline-block;
+			}	
+			
+			.banner .navigation ul li a {
+				border-right: 1px solid #ededed;
+				color: #555555;
+				display: inline-block;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 12px;
+				padding: 15px 28px 15px 28px;
+				text-transform: uppercase;
+				text-align: center;
+				}	
+				
+			.banner .navigation .active {
+				border-left: 1px solid #ededed;
+				}
+				
+				.banner .navigation ul li:hover a{
+					background-color: #29b6f6;
+					color: #ffffff;
+					}
+	.banner .banner-content {
+		padding-bottom: 80px;
+		text-align: center;
+		}	
+		
+		.banner-content h3 {
+			margin-top: 120px;
+			}
+		
+		.banner-content .default-btn {
+			margin-top: 50px;
+			}
+			
+		.banner-content .default-btns {
+			border: 2px solid #ffffff;
+			border-radius: 3px;
+			color: #ffffff;
+			display: inline-block;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 14px;
+			padding: 9px 30px;
+			text-transform: uppercase;
+			}
+			
+			.banner-content .default-btns:hover {
+				background-color: #0b77a8;
+				border: 2px solid #0b77a8;
+				}
+/* banner ends */	
+
+/* welcome starts */
+.welcome {
+	padding: 65px 0 85px;
+	}
+	
+	.welcome .space .island {
+		float: left;
+		margin-right: 30px;
+		width: 570px;
+		}
+	
+		.welcome .space .island:last-child,
+		.island .common:last-child {
+			margin-right: 0;
+			}
+		
+			.island .common {
+				float: left;
+				margin-right: 30px;
+				width: 270px;
+				}
+			
+			.island .default-title p {
+				margin-bottom: 20px;
+				}
+					
+				.island .default-title .name p {
+					font-family: 'Mrs Saint Delafield', cursive;
+					font-size: 30px;
+					}
+					
+				.common .btn,
+				.gallery .btn {
+					float: right;
+					} 
+					
+					.common .btn ul li,
+					.gallery .btn ul li {
+						float: left;
+						}
+						
+					.common .btn ul li i,
+					.gallery .btn ul li i {
+						border: 1px solid #b2b2b2;
+						border-radius: 2px;
+						content: '';
+						height: 25px;
+						line-height: 25px;
+						margin-left: 10px;
+						text-align: center;
+						position: relative;
+						width: 25px;
+						z-index: 1;
+						}	
+						
+						.common .btn ul li:hover i,
+						.gallery .btn ul li:hover i,
+						.footer-btm .social ul li:hover i {
+							background-color: #29b6f6;
+							color: #ffffff;
+							}
+					
+				.common .item {
+					margin-bottom: 10px;
+					}
+					.common .item p {
+						margin-left: 45px;
+						}
+					
+					.common .info p {
+						margin-left: 65px;
+						}	
+						
+					.common .cont p {
+						margin-top: 15px;
+						}
+						
+						.common .info .name {
+							font-weight: bold;
+							}
+							
+					.common .item:hover p {
+						color: #29b6f6;
+						}	
+				
+					
+/* welcome ends */	
+		
+/* room starts */
+.rooms {
+	background-color: #f0f3f5;
+	}
+	
+	.rooms .pics {
+		padding: 60px 0px 60px;
+		}
+		
+		.rooms .pics .item {
+			background-color: #ffffff;
+			float: left;
+			margin-right: 30px;
+			width: 270px;
+			}
+		
+		.rooms .pics .item:last-child {
+			margin-right: 0;
+			}
+			
+		.rooms .pics .item .pic {
+			overflow: hidden;
+			position: relative;
+			}
+			
+			.rooms .pics .item .pic .overlay {
+				background-color: rgba(41, 182, 246, 0.6);
+				position: absolute;
+				left: 0;
+				top: 100%;
+				width: 100%;
+				height: 100%;
+				transition: all 0.5s ease;
+				}
+				
+				.rooms .pics .item .pic:hover .overlay {
+					top: 0;
+					}
+					
+				.rooms .pics .item .pic .overlay {
+					color: #ffffff;
+					text-transform: uppercase;
+					text-align: center;
+					padding-top: 90px;
+					} 
+			
+			.rooms .pics .item img {
+				display: block;
+				}
+			
+			.item .detail {
+				padding: 20px 60px 30px 60px;
+				}
+			
+				.item .detail a:hover{
+					color: #29b6f6;
+					}	
+					
+				.item .detail p {
+					color: #666666;
+					text-align: center;
+					text-transform: uppercase;
+					}	
+					
+					.item .detail h6 {
+						padding-bottom: 10px;
+						position: relative;
+						}
+						
+					.item .detail p {
+						margin-top: 10px;
+						}	
+					
+					.item .detail h6::after {
+						background-color: #dddddd;
+						bottom: 0;
+						content: '';
+						height: 1px;
+						left: 50px;
+						position: absolute;
+						width: 50px;
+						}
+/* room ends */			
+
+/* inspire starts */
+.inspire {
+	padding: 70px 0 60px;
+	background: url(../images/inspire-bg.jpg) no-repeat left top;
+	background-size: cover;
+	}
+	
+	.inspire .contain {
+		text-align: center;
+		}
+		
+		.inspire .contain h2 {
+			margin-bottom: 40px;
+			}	
+			
+		.inspire .contain h3 {
+			margin-bottom: 50px;
+			}
+			
+			.inspire .contain .default-btn {
+				margin-bottom: 25px;
+				}	
+/* inspire ends */
+
+/* gallery starts */
+.gallery {
+	padding: 70px;
+	}
+	
+	.gallery .items .pics {
+		float: left;
+		margin-right: 30px;
+		width: 270px;
+		}
+	
+		.gallery .items .pics:last-child {
+			margin-right: 0;
+			}
+			
+			
+/* gallery ends */
+
+/* footer-top starts */
+.footer-top {
+	background-color: #f6f6f6;
+	padding: 60px 0 65px;
+	}
+	
+	.footer-top .items {
+		float: left;
+		margin-right: 30px;
+		width: 270px;
+		}
+		
+		.footer-top .items:last-child {
+			margin-right: 0;
+			}
+			
+		.footer-top .items img {
+			border: 5px solid #ffffff;
+			height: 200px;
+			width: 260px;
+			}
+			
+			.items .title h5 {
+				color: #000000;
+				text-transform: uppercase;
+				}
+				
+		.footer-top .items ul li {
+			margin-bottom: 20px;
+			}
+			
+			.footer-top .items ul li a:hover {
+				color: #29b6f6;
+				}
+				
+		.footer-top .items p {
+			margin-bottom: 25px; 
+			}
+			
+			.footer-top .items .btn {
+				margin-bottom: 15px;
+				}	
+				
+				.footer-top .items .btn .int-btn i {
+					color: #000000;
+					padding: 10px 10px;
+					position: relative;
+					}
+					
+				.footer-top .items .btn .int-btn .form-control {
+					position: absolute;
+					padding-left: 30px;
+					} 
+				
+				.footer-top .items .btn .form-control {
+					height: 30px;
+					width: 260px;
+					}			
+/* footer-top ends */
+ 
+/* footer-btm starts */
+.footer-btm {
+	padding: 35px 0 35px;
+	}
+	
+	.footer-btm .social ul li {
+		float: right;
+		}
+		
+		.footer-btm .social {
+			float: right;
+			}
+			
+			.footer-btm .social ul li {
+				float: left;
+				}
+				
+	.footer-btm .social ul li i {
+			border: 1px solid #b2b2b2;
+			border-radius: 50%;
+			content: '';
+			height: 25px;
+			line-height: 25px;
+			margin-left: 5px;
+			text-align: center;
+			position: relative;
+			width: 25px;
+			z-index: 1;
+			}		
+/* footer-btm ends */
